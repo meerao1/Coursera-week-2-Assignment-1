@@ -10,4 +10,9 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
         mean(value, na.rm = TRUE)
 }
 
-pollutantmean("/Users/shriarao/Desktop/Coursera/specdata","sulfate")
+
+pollutantmean("/Users/shriarao/Desktop/Coursera/specdata","sulfate", 1:10)
+
+pollutantmean("/Users/shriarao/Desktop/Coursera/specdata","nitrate", 70:72)
+
+pollutantmean("/Users/shriarao/Desktop/Coursera/specdata","nitrate", 23)
